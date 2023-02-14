@@ -6,6 +6,7 @@ body{
 }
 .MainHeader h1{
     margin-top: 3%;
+    font-size: 35px;
 }
 .MainSection{
     border: 1px solid grey;
@@ -18,7 +19,7 @@ body{
 .EmailContainer{
     display: flex;
     background-color: rgb(237, 232, 232);
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
     border: 1px solid rgb(0, 0, 0);
 }
 .Color{
@@ -237,7 +238,7 @@ body{
     background-color: #555; /* Add a dark-grey background on hover */
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     body{
         width: 100%;
         margin-left: 0px;
@@ -247,7 +248,7 @@ body{
     .MainHeader h1{
         text-align: center;
         margin-top: 10%;
-        font-size: 24px;
+        font-size: 28px;
     }
     .MainSection{
         width: 100%;
@@ -261,7 +262,7 @@ body{
     .EmailContainer{
         display: flex;
         background-color: rgb(237, 232, 232);
-        border-radius: 10px;
+        border-radius: 10px 10px 0px 0px;
         border: 1px solid rgb(0, 0, 0);
     }
     .Color{
@@ -272,7 +273,8 @@ body{
     .Email{
         width:60%;
         text-align: end;
-        margin-right: 2%;
+        margin-right: 1%;
+        font-weight: bold;
         font-size:15px;
     }
     .browser-dot{
@@ -350,7 +352,7 @@ body{
     /* This design is for second div */
     .SecondSection{
         margin-top: 2%;
-        background-color: white;
+        background-color: rgb(255, 230, 216);
         width: 100%;
         display: block;
     }
@@ -397,6 +399,10 @@ body{
     }
     .Social p{
         padding-top: 10px;
+    }
+    #Slinks {
+        color:white;
+        text-decoration: none;
     }
     #s1{
         background-color:green;
