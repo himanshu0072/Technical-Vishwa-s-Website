@@ -152,6 +152,10 @@ body{
 .Social p{
     padding-top: 10px;
 }
+#Slinks {
+    color:white;
+    text-decoration: none;
+}
 #s1{
     background-color:green;
     margin-top: 2%;
